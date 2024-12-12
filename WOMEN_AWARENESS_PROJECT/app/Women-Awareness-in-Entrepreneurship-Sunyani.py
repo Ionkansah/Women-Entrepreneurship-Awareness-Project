@@ -45,7 +45,6 @@ marital_status_counts = data['MARITAL STATUS'].value_counts()
 st.bar_chart(marital_status_counts)
 
 # Pie Chart (using Plotly)
-import plotly.express as px
 st.subheader("Educational Background Distribution")
 fig = px.pie(data, names='EDUCATIONAL BACKGROUND', title="Educational Background Distribution")
 st.plotly_chart(fig)
