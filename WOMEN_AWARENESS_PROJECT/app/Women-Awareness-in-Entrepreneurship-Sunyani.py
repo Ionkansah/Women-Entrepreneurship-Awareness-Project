@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
+
 
 # Title of the Streamlit App
 st.title("Entrepreneurship Among Women in Sunyani")
