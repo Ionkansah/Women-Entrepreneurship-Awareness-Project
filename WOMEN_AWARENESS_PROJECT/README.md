@@ -61,7 +61,31 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Ionkansah/Women-Entrepreneurship-Awareness-Project
+
+2. Navigate to the Project Directory
+
+         cd https://github.com/Ionkansah/Women-Entrepreneurship-Awareness
+
+4. Set Up the Virtual Environment:
+   Install Anaconda.
+   Create an environment:
+
+         conda create -n data-science-env python=3.9
+         conda activate data-science-env
+
+5. Install Dependencies:
+
+         pip install pandas matplotlib seaborn streamlit
+   
+How to Use
+a. Open the Jupyter Notebook file:
+jupyter lab
+
+b. Run the notebook step-by-step to analyze the data.
+   To deploy the project using Streamlit:
+
+      streamlit run app.py
 
 
 project/
