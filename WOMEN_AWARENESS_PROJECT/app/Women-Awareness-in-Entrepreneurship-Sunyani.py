@@ -9,7 +9,7 @@ st.title("Entrepreneurship Among Women in Sunyani")
 @st.cache_data
 def load_data():
     # Adjust this path if the dataset is stored elsewhere
-    return pd.read_csv("C:/Users/JOEKONA\Documents/ION PROJECTs/WOMEN_AWARENESS_PROJECT/data/AGE-CHILDREN-Map_cleaned_data.csv")
+    return pd.read_csv("WOMEN_AWARENESS_PROJECT/data/AGE-CHILDREN-Map_cleaned_data.csv")
 
 # Load and display the data
 data = load_data()
