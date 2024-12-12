@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-
 # Title of the Streamlit App
 st.title("Entrepreneurship Among Women in Sunyani")
 
@@ -31,9 +30,10 @@ st.dataframe(filtered_data)
 # Visualizations
 st.write("### Data Visualization")
 if st.checkbox("Show Correlation Heatmap"):
+
+    import matplotlib.pyplot as plt  
     import seaborn as sns
-    import matplotlib.pyplot as plt
-    import numpy as np
+     
 
     fig, ax = plt.subplots()
     sns.heatmap(data.corr(), annot=True, fmt=".2f", cmap="coolwarm", ax=ax)
