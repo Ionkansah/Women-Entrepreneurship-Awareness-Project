@@ -32,9 +32,9 @@ st.write("### Data Visualization")
 if st.checkbox("Show Correlation Heatmap"):
 
     import matplotlib.pyplot as plt  
+    import numpy as np
     import seaborn as sns
-     
-
+    
     fig, ax = plt.subplots()
     sns.heatmap(data.corr(), annot=True, fmt=".2f", cmap="coolwarm", ax=ax)
     st.pyplot(fig)
