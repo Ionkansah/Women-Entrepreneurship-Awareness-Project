@@ -78,7 +78,7 @@ Follow these steps to set up the project on your local machine:
 
          pip install pandas matplotlib seaborn streamlit
    
-How to Use
+## How to Use
 a. Open the Jupyter Notebook file:
 jupyter lab
 
@@ -87,7 +87,7 @@ b. Run the notebook step-by-step to analyze the data.
 
       streamlit run app.py
 
-
+## Project Structure
 project/
 │
 ├── data/
@@ -104,10 +104,10 @@ project/
 └── LICENSE                      # Project license
 
 
-Deployment
+## Deployment
 The project is designed to be deployed using Streamlit. You can deploy it locally or on a platform like Streamlit Cloud.
 
-Acknowledgments
+## Acknowledgments
 This project was made possible with the following:
 Respondents who shared valuable insights through the survey.
 Guidance from mentors and collaborators in the field of data science.
