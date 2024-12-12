@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the Streamlit App
-st.title("Entrepreneurship Among Women in Sunyani")
+st.title("Entrepreneurship Among Women in Sunyani-A Beta Visualisation Project")
 
 # Load the dataset
 @st.cache_data
@@ -45,6 +45,7 @@ marital_status_counts = data['MARITAL STATUS'].value_counts()
 st.bar_chart(marital_status_counts)
 
 # Pie Chart (using Plotly)
+import plotly.express as px
 st.subheader("Educational Background Distribution")
 fig = px.pie(data, names='EDUCATIONAL BACKGROUND', title="Educational Background Distribution")
 st.plotly_chart(fig)
